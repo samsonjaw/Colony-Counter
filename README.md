@@ -2,14 +2,14 @@
 This repository hosts a Python script utilizing OpenCV to automatically count bacterial colonies in petri dishes. The script employs various image processing techniques to isolate and enumerate colonies efficiently and accurately.
 
 ## Features
-- **Interactive Image Selection**: Use a graphical interface to select an image of a petri dish.
+- **Image Selection**: Use a file browser to select an image of a petri dish.
 - **Automatic Resizing**: Adjust images to a standard size while maintaining aspect ratio for consistent processing.
-- **Grid Overlay**: Apply a reference grid to the image, aiding in manual adjustments or assessments.
-- **ROI Selection**: Manually select regions of interest within the image for focused analysis.
-- **Image Cropping**: Isolate the selected ROI for detailed processing.
+- **Grid Overlay**: Apply a reference grid to the image, aiding in manual adjustments.
+- **ROI Selection**: Manually select regions of petri dish.
+- **Image Cropping**: Isolate the selected ROI.
 - **Contrast Enhancement**: Use blackhat morphological transformations to improve visibility of colonies against the medium.
-- **Binary Thresholding**: Simplify the image to binary form to facilitate colony detection.
-- **Noise Reduction**: Clean up the image background using morphological operations.
+- **Binary Thresholding**: Simplify the image to binary form.
+- **Noise Reduction**: Clean up the image background using Opening operation.
 - **Watershed Algorithm**: Segment the image to distinguish individual colonies.
 - **Counting and Visualization**: Calculate and display the number of colonies, highlighting each detected colony.
 
