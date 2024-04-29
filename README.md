@@ -38,6 +38,7 @@ python colony_counter.py
 
 ## Contributing
 Contributions are welcome!
+
 You can help by:
 
 Reporting issues
