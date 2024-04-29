@@ -41,9 +41,9 @@ Contributions are welcome!
 
 You can help by:
 
-Reporting issues
-Suggesting improvements
-Adding new features through pull requests
+- Reporting issues
+- Suggesting improvements
+- Adding new features through pull requests
 
 ## License
 This project is licensed under the MIT License.
