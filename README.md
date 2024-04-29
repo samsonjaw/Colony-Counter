@@ -16,7 +16,7 @@ This repository hosts a Python script utilizing OpenCV to automatically count ba
 ## Prerequisites
 Ensure these prerequisites are installed on your system:
 
-- Python 3.x
+- Python 3.x: Python 3.6 or higher is recommended. I am developing with Python 3.9.5.
 - OpenCV
 - NumPy
 - Tkinter
