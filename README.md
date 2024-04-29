@@ -28,6 +28,7 @@ pip install opencv-python numpy
 
 ## Usage
 1.Download the script or clone this repository.
+
 2.Run the script:
 
 ```bash
