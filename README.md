@@ -24,6 +24,7 @@ Install the required libraries using pip:
 
 ```bash
 pip install opencv-python numpy
+```
 
 ## Usage
 1.Download the script or clone this repository.
@@ -31,7 +32,7 @@ pip install opencv-python numpy
 
 ```bash
 python colony_counter.py
-
+```
 3.Follow the GUI prompts to select an image and proceed through the steps of processing and counting the colonies.
 
 ## Contributing
