@@ -37,7 +37,8 @@ python colony_counter.py
 3.Follow the GUI prompts to select an image and proceed through the steps of processing and counting the colonies.
 
 ## Contributing
-Contributions are welcome! You can help by:
+Contributions are welcome!
+You can help by:
 
 Reporting issues
 Suggesting improvements
