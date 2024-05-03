@@ -36,7 +36,26 @@ demonstrate：https://youtu.be/0kkqQw8T_aM
 ```bash
 python colony_counter.py
 ```
-3.Follow the GUI prompts to select an image and proceed through the steps of processing and counting the colonies.(press enter to next picture)
+3.Adjust the parameter **threshold_percentage**. The higher the threshold_percentagem, the stronger the ability to isolate colonies, but the easier it is to ignore details.(Large colonies are suitable for high values, and small colonies are suitable for high values.)
+You can find threshold_percentage in below function.
+```python=
+def prepare_for_watershed(image):
+    sure_bg = cv2.dilate(image, np.ones((3,3), np.uint8), iterations=3)
+    
+    dist_transform = cv2.distanceTransform(image, cv2.DIST_L2, 5) 
+
+    threshold_percentage = 0.3
+    _, sure_fg = cv2.threshold(dist_transform, threshold_percentage * dist_transform.max(), 255, 0)
+    
+    sure_fg = np.uint8(sure_fg)
+    unknown = cv2.subtract(sure_bg, sure_fg)
+
+    cv2.imshow('test', sure_fg)
+
+    return sure_fg, unknown
+```
+
+4.Follow the GUI prompts to select an image and proceed through the steps of processing and counting the colonies.(press enter to next picture)
 
 ## Contributing
 Contributions are welcome!
