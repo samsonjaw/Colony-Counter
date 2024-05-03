@@ -11,7 +11,10 @@ This repository hosts a Python script utilizing OpenCV to automatically count ba
 - **Binary Thresholding**: Simplify the image to binary form.
 - **Noise Reduction**: Clean up the image background using Opening operation.
 - **Watershed Algorithm**: Segment the image to distinguish individual colonies.
-- **Counting and Visualization**: Calculate and display the number of colonies, highlighting each detected colony.
+- **Counting and Visualization**: Calculate and display the number of colonies(print in terminal), highlighting each detected colony.
+![image](https://github.com/samsonjaw/Colony-Counter/assets/114964564/910c44cd-86d3-4bf0-b55a-958250e2c0e8)
+![image](https://github.com/samsonjaw/Colony-Counter/assets/114964564/ff00d70a-3a36-4bf6-9581-9eb8901225bc)
+
 
 ## Prerequisites
 Ensure these prerequisites are installed on your system:
@@ -55,7 +58,7 @@ def prepare_for_watershed(image):
     return sure_fg, unknown
 ```
 
-4.Follow the GUI prompts to select an image and proceed through the steps of processing and counting the colonies.(press enter to next picture)
+4.Follow the GUI prompts to select an image and proceed through the steps of processing and counting the colonies.(Press enter to next picture / The number of colonies will print in terminal.)
 
 ## Contributing
 Contributions are welcome!
