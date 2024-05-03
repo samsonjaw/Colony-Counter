@@ -3,16 +3,15 @@ This repository hosts a Python script utilizing OpenCV to automatically count ba
 
 ## Features
 - **Image Selection**: Use a file browser to select an image of a petri dish.
-- **Automatic Resizing**: Adjust images to a standard size while maintaining aspect ratio for consistent processing.
 - **Grid Overlay**: Apply a reference grid to the image, aiding in manual adjustments.
 - **ROI Selection**: Manually select regions of petri dish.
 - **Image Cropping**: Isolate the selected ROI.
 - **Contrast Enhancement**: Use blackhat morphological transformations to improve visibility of colonies against the medium.
 - **Binary Thresholding**: Simplify the image to binary form.
-- **Noise Reduction**: Clean up the image background using Opening operation.
 - **Watershed Algorithm**: Segment the image to distinguish individual colonies.
 - **Counting and Visualization**: Calculate and display the number of colonies(print in terminal), highlighting each detected colony.
-![image](https://github.com/samsonjaw/Colony-Counter/assets/114964564/910c44cd-86d3-4bf0-b55a-958250e2c0e8)
+- 
+![image](https://github.com/samsonjaw/Colony-Counter/assets/114964564/15c5c3ad-ee38-443c-b6e8-100e1551b973)
 ![image](https://github.com/samsonjaw/Colony-Counter/assets/114964564/ff00d70a-3a36-4bf6-9581-9eb8901225bc)
 
 
